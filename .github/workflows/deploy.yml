@@ -38,6 +38,8 @@ jobs:
     environment:
       name: github-pages
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v3   # ✅ passo que tava faltando
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
