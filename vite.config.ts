@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // 👈 mantém raiz do domínio
+  base: '/zallen-funebre/', // 👈 tem que ser exatamente o nome do repositório
 })
